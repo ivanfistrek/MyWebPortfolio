@@ -1,12 +1,304 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
+   
+<!-- index.html  26 Nov 2019 03:50:59 GMT -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <p>Ovo je moj Portfolio.</p>
-</body>
+      <!--Meta Tags-->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="I am a computer science graduate with passion for technology." />
+      <meta name="keywords" content="game development, developer Varaždin" />
+      <meta name="author" content="Ivan Fištrek" />
+      <!--Favicons-->
+      <link rel="shortcut icon" href="images/favicon.png">
+      <!--Page Title-->
+      <title>Ivan Fištrek | Web Portfolio</title>
+      <!-- Bootstrap  -->
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <!-- Animate.css -->
+      <link rel="stylesheet" href="css/animate.css">
+      <!-- Awesome Fonts-->
+      <link rel="stylesheet" href="css/all.min.css">
+      <!-- Flexslider  -->
+      <link rel="stylesheet" href="css/flexslider.css">
+      <!--Main Styles Css-->
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="pre-container">
+            <div class="spinner">
+               <div class="double-bounce1"></div>
+               <div class="double-bounce2"></div>
+            </div>
+         </div>
+      </div>
+      <!-- Εnd Preloader -->
+      
+      <!-- Scroll icon -->
+      <div class="scroll-icon">
+         <a href="#info" class="smoothscroll">
+            <div class="mouse"></div>
+         </a>
+         <div class="end-top"></div>
+      </div>
+      <div id="page">
+
+         <!-- header -->
+         <header class="header">
+            <div class="container">
+               <div class="navbar-brand">
+                  <div class="row">
+                     <div class="col-xs-6">
+                        <!-- Logo -->
+                        <!-- <h1 class="text-left"><a class="logo" href="index.html">Matej</a></h1>
+                     </div> -->
+                  </div>
+                  <!-- Nav toggle -->
+                  <!-- <a href="#" class="js-nav-toggle nav-toggle"><i></i></a> -->
+               </div>
+            </div>
+         </header>
+         <!-- End Header -->
+
+         <!-- Banner section -->
+         <section id="banner" class="js-fullheight">
+            <div class="flexslider js-fullheight">
+               <!-- Social -->
+               <ul class="list-unstyled ml-5 mt-3 position-relative social-links">
+                  <li class="mb-3"><a target="_blank" href="https://www.facebook.com/ivan.fistrek.77"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="mb-3"><a target="_blank" href="https://www.instagram.com/ifistrek/"><i class="fab fa-instagram"></i></a></li>
+                  <li class="mb-3"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.AevanProductions.FlappingPooper"><i class="fab fa-google-play"></i></a></li>
+               </ul>
+               <!-- Slider -->
+               <ul class="slides">
+                  <li style="background-image: url(images/main-cover-photo.jpg);">
+                     <div class="overlay-gradient"></div>
+                     <div class="container">
+                        <div class="col-md-8 js-fullheight slider-text">
+                           <div class="slider-text-inner">
+                              <div class="desc">
+                                 <h2>I'm Ivan Fištrek!</h2>
+                                 <h3>I am a
+                                    <span id="typed-slide-1"></span>
+                                    <span id="typed-strings-slide-1">
+                                    <span>Game Developer</span>
+                                    <span>Tech Enthusiast</span>
+                                    </span>
+                                 </h3>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <!-- End Banner Section -->
+
+         <!-- About Section -->
+         <section id="about">
+            <div class="container">
+               <div class="row">
+             
+                  <div class="col-md-12">
+                     <div class="post-entry">
+
+                        <div class="col-md-6">
+                            <div class="header-page-about">
+                              <h2 class="intro-heading">About Me</h2>
+                           </div>
+                            <p>I am a game development enthusiast from Varaždin. </p>
+                           <div class="col-md-6 col-sm-4 no-padding">
+                              <ul>
+                                 <li><span>Name: </span>Ivan Fištrek</li>
+                                 <li><span>Job: </span>Game Developer</li>
+                              </ul>
+                           </div>
+                           <div class="col-md-6 col-sm-4 no-padding">
+                              <ul>
+                                 <li><span>Email: </span> <a href="mailto: ivanfistrek5@gmail.com">ivanfistrek5@gmail.com </a></li>
+                                 <li><span>Phone: </span> <a href="tel: +385 97 740 7483">+385 97 740 7483</a></li>
+                              </ul>
+                           </div>
+                           <hr>
+                           <div class="col-md-12 no-padding mt-20">
+                              <a class="btn btn" href="documents/Matej_Javorski.pdf">Download CV</a>
+                              <a class="btn btn-primary" href="tel: +385 97 740 7483">Hire Me</a> 
+                           </div>
+                        </div>
+
+                        <div class="col-md-6">
+                           <div class="post-image"></div>
+                           <div class="display-tc">
+                              <div class="desc">
+                                 <h3>My skills</h3>
+                                 <div class="skill-item">
+                                    <h5>Unity</h5><span>80%</span>
+                                    <div class="progress" data-percent="80%">
+                                       <div class="progress-bar bar-null" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                    </div>
+                                 </div>
+                                 <div class="skill-item">
+                                    <h5>C#</h5><span>60%</span>
+                                    <div class="progress" data-percent="60%">
+                                       <div class="progress-bar bar-null" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                    </div>
+                                 </div>
+                                 <div class="skill-item">
+                                    <h5>C++</h5><span>45%</span>
+                                    <div class="progress" data-percent="45%">
+                                       <div class="progress-bar bar-null" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%;"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </section>
+         <!-- End About Section -->
+
+         <!-- Resume Section -->
+         <section id="resume" class="bg-dark bg-dots">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center heading">
+                     <div class="header-page">
+                        <h2>My Projects</h2>
+                        <span></span>
+                     </div>
+                     <span class="heading-meta-sub">GAMES</span>
+                     <p>Get familiar with my experience.<br> Where do I do? What was my first "gig"?</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="col-md-6">
+                        <div class="item mb-40">
+                           <h4><span class="item-icon"><i class="fas fa-briefcase"></i></span>Polytechnic of Međimurje in Čakovec</h4>
+                           <span class="meta">2014. - 2018.</span>
+                           <h5>Computer Science</h5>
+                           <p>Studying computer science ignited quite an interest in web technologies as well as in .NET platform and Java Springboot framework.</p>
+                        </div>
+                        <div class="item mb-40">
+                           <h4><span class="item-icon"><i class="fas fa-briefcase"></i></span>Marnet d.o.o.</h4>
+                           <span class="meta">2017. - 2019.</span>
+                           <h5>Developer & System Administrator</h5>
+                           <p>Working as a developer and system administrator in Marnet taught about me teamwork, self-organization and agile methodologies.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- End Resume Section -->
+
+         <!-- End Resume Section -->
+
+         <!-- Contact Section -->
+         <section id="contact" class="bg-light">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-2 text-center heading">
+                     <div class="header-page">
+                        <h2>Get In Touch</h2>
+                        <span></span>
+                     </div>
+                     <span class="heading-meta-sub">CONTACT</span>
+                     <p>Feel free to contact me. Whether it is for a freelance job, company job, collaboration or something else. Looking forward to talking to you!</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-3 col-md-push-1">
+                     <ul class="contact-info">
+                        <li><i class="fas fa-map-marked-alt"></i>Dravska 19, Varaždin</li>
+                        <li><i class="fas fa-phone-alt"></i><a href="tel: +385 97 740 7483">+385 97 740 7483</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto: ivanfistrek5@gmail.com">ivanfistrek5@gmail.com</a></li>
+                     </ul>
+                  </div>
+                  <form name="contact" method="POST" data-netlify="true">
+                     <div class="col-md-7 col-md-push-1">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="form-group">
+                                 <input type="text" class="form-control" placeholder="Name">
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="form-group">
+                                 <input type="text" class="form-control" placeholder="Email">
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+                              <div class="form-group">
+                                 <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+                              <div class="form-group text-right">
+                                 <input type="submit" value="Send Message" class="btn btn-primary">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+         <!-- End Contact Section -->
+
+         <!-- Footer -->
+         <footer>
+            <div id="footer">
+               <div class="container">
+                  <div class="row copy-right">
+                     <div class="col-md-6 col-md-offset-3 text-center">
+                        <!-- Footer logo -->
+                        <h2><a class="footer-logo" href="index.html">Ivan Fištrek</a></h2>
+                        <!-- Social -->
+                        <p class="social-icon">
+                           <a target="_blank" href="https://www.facebook.com/ivan.fistrek.77"><i class="fab fa-facebook-square"></i></a>
+                           <a target="_blank" href="https://www.instagram.com/ifistrek/"><i class="fab fa-instagram"></i></a>
+                           <a target="_blank" href="https://play.google.com/store/apps/details?id=com.AevanProductions.FlappingPooper"><i class="fab fa-google-play"></i></a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- Back to top button -->
+            <a id="back-to-top" href="#"><i class="fas fa-chevron-up"></i></a>
+         </footer>
+         <!-- End Footer -->
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery.min.js"></script>
+      <!-- jQuery Easing -->
+      <script src="js/jquery.easing.1.3.js"></script>
+      <!-- Bootstrap -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Waypoints -->
+      <script src="js/jquery.waypoints.min.js"></script>
+      <!-- Counters -->
+      <script src="js/jquery.countTo.js"></script>
+      <!-- Flexslider -->
+      <script src="js/jquery.flexslider-min.js"></script>
+      <!-- isotope js -->
+      <script src="js/isotope.pkgd.min.js"></script>
+      <!-- isotope image loader js -->
+      <script src="js/imagesloaded.pkgd.min.js"></script>
+      <!-- Typed -->
+      <script src="js/typed.min.js"></script>
+      <!-- Custom JS -->
+      <script src="js/custom.js"></script>
+   </body>
+
+<!-- index.html  26 Nov 2019 03:52:23 GMT -->
 </html>
