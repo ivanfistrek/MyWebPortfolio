@@ -1339,6 +1339,10 @@ header .navbar-brand .social-icon a {
   z-index: 1;
 }
 
+.slides.projects li::after {
+  background: transparent !important;
+}
+
 #banner .flexslider .slides .desc h3{
   color: #e1b783;
 }
